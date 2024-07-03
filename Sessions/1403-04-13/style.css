@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    margin-top: 7rem;
+    /* border: 2px black solid; */
+    /* width: 20rem; */
+    /* padding: 37px 37px; */
+}
