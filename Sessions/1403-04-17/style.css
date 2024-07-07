@@ -1,0 +1,36 @@
+p {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.box {
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.big-box {
+    width: 600px;
+    height: 600px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.ml-270 {
+    margin-left: 270px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.d-ib {
+    display: inline-block;
+}
