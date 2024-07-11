@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    /* No controll over the height if display is something other than block */
+    display: block;
+}
+
+.inline-box {
+    background-color: brown;
+    width: 300px;
+    height: 100px;
+    padding: 40px;
+    display: inline-block;
+}
+
+.block-box {
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+}
+
+.text-white {
+    /* color: white; */
+}
+
+.image-box {
+    background-color: brown;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.image-box img {
+    max-width: 500px;
+}
+
+/* img {
+    width: min(600px, 100%);
+    width:100%;
+    max-width: 600px;
+} */
+
+.product {
+    margin: 30px;
+    background-color: darkgoldenrod;
+    width: 300px;
+}
+
+.title {
+    /* background-color: hotpink; */
+    padding: 16px;
+}
+
+.product-area .product {
+    background-color: orangered;
+}
