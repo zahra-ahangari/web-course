@@ -1,0 +1,30 @@
+.main-page {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    background-image: url(../../public/images/global/MapChart_Map-1\ 1.svg);
+    padding: 16px 32px;
+}
+
+.main-page .sidebar {
+    height: 100%;
+    width: 300px;
+    border: 2px solid rebeccapurple;
+}
+
+.main-page .content {
+    height: 100%;
+    border: 2px solid rebeccapurple;
+    flex-grow: 1;
+}
+
+.main-page .sidebar .nav-header {
+    /* height: ; */
+    background-image: url(../../public/images/sidebar/logo.svg);
+}
+
+.main-page .sidebar .nav-item {
+    margin: 44px 32px;
+}
