@@ -1,0 +1,53 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 800px; */
+    /* text-align: center; */
+    gap: 8px;
+    /* margin: 40px auto; */
+    margin-top: 40px;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.card .card-image img {
+    /* background-image: url(../../public/images/global/CityLights.jpg); */
+    border-radius: 6px;
+}
+
+.card .card-body .card-des {
+    padding: 8px;
+    text-align: left;
+}
+
+.card .card-body .card-btn {
+    padding: 8px;
+}
+
+.card:nth-child(2) {
+    background-color: rgba(220, 20, 60, 0.718);
+}
+
+.card:nth-child(3) {
+    background-color: rgba(220, 20, 60, 0.718);
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.nav .nav-item {
+    position: relative;
+}
+
+.nav .nav-item::before {
+}
