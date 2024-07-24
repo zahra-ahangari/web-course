@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    background-image: url(./../../public/images/pattern-background-desktop.svg);
+    background-color: hsl(224, 23%, 55%);
+}
+
+.card {
+    width: 300px;
+    border: 2px black solid ;
+    border-radius: 4px;
+}
+
+.card img {
+
+}
+
+.card-content {
+
+}
+
+.text-area {
+
+}
+
+.title {
+    font-family: url(./../../public/fonts/RedHatDisplay-ExtraBold.ttf);
+    font-weight: 900;
+    pad
+}
+
+.subtitle {
+
+}
+
