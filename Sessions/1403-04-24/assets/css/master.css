@@ -1,0 +1,63 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+.box .first-box {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.box.first-box {
+    background-color: green;
+}
+
+@media (max-width: 600px) {
+    .box {
+        width: 100px;
+    }
+}
+
+.parent {
+    width: 100%;
+    /* background-color: indigo; */
+    display: flex;
+    gap: 16px;
+
+    /* Set the child items horizontally (x axix) */
+    justify-content: flex-start;
+
+    /* Set the child items vertically (y asix) */
+    align-items: flex-start;
+}
+
+.parent .item {
+    background-color: red;
+    color: white;
+}
+
+.cross {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.column {
+    /* background-color: blue; */
+    /* height: 200px; */
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.m-8 {
+    margin: 8px;
+}
