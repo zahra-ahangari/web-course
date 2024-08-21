@@ -1,11 +1,1 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    width: 100%;
-    /* No controll over the height if display is something other than block */
-    display: block;
-}
+.list-box .box{background-color:gold}.list-box .box:hover{background-color:0}.fs-14{font-size:14px}.fs-16{font-size:16px}.fs-18{font-size:18px}.fs-28{font-size:28px}.fs-32{font-size:32px}.fw-14{font-weight:14}.fw-16{font-weight:16}.fw-18{font-weight:18}.fw-28{font-weight:28}.fw-32{font-weight:32}/*# sourceMappingURL=master.min.css.map */

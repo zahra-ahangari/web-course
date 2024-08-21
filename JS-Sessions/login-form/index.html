@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
+        <link
+            rel="stylesheet"
+            href="./assets/vendor/bootstrap5.2.3/bootstrap.rtl.min.css"
+        />
+        <!-- <link rel="stylesheet" href="./assets/css/master.scss" />
+        <link rel="stylesheet" href="./assets/css/pages/_login.scss" /> -->
+        <link rel="stylesheet" href="./assets/css/master.min.css" />
+    </head>
+    <body dir="rtl">
+        <div class="container mt-5">
+            <section class="auth-area">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="data-form">
+                            <div class="mt-8 mb-5 form-header">
+                                <h2>فرم ثبت اطلاعات</h2>
+                                <div>اطلاعات فرم زیر را پر کنید</div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="fnameInput" class="form-label"
+                                    >نام کاربری</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="fnameInput"
+                                    placeholder="لطفا نام کاربری خود را وارد کنید"
+                                />
+                            </div>
+                            <div class="mb-4">
+                                <label for="emailInput" class="form-label"
+                                    >ایمیل</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="emailInput"
+                                    placeholder="لطفا ایمیل خود را وارد کنید"
+                                />
+                            </div>
+                            <div class="mb-4 form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="inlineRadioOptions"
+                                    id="inlineRadio1"
+                                    value="option1"
+                                />
+                                <label
+                                    class="form-check-label"
+                                    for="inlineRadio1"
+                                    >خانم</label
+                                >
+                            </div>
+                            <div class="mb-4 form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="inlineRadioOptions"
+                                    id="inlineRadio2"
+                                    value="option2"
+                                />
+                                <label
+                                    class="form-check-label"
+                                    for="inlineRadio2"
+                                    >آقا</label
+                                >
+                            </div>
+                            <div class="mb-4">
+                                <label for="birthDateInput" class="form-label"
+                                    >تاریخ تولد</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="birthDateInput"
+                                    placeholder="لطفا تاریخ تولد خود را انتخاب کنید"
+                                />
+                            </div>
+                            <div class="mb-4">
+                                <label for="cityInput" class="form-label"
+                                    >شهر</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="cityInput"
+                                    placeholder="شهر محل سکونت خود را انتخاب کنید"
+                                />
+                            </div>
+                            <button
+                                type="button"
+                                class="btn btn-primary btn-lg px-11"
+                                onclick="save()"
+                            >
+                                ثبت اطلاعات
+                            </button>
+                            <button
+                                type="button"
+                                class="btn btn-secondary btn-lg px-11"
+                            >
+                                ثبت نام با گوگل
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="logo-section">
+                            <img
+                                class="img-fluid mx-auto"
+                                src="./public/images/global/logo-2.jpg"
+                                alt="گروه طراحی وب درنیکا"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="./assets/js/app.js"></script>
+    </body>
+</html>
