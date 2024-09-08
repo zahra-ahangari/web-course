@@ -4,12 +4,40 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="./assets/vendor/bootstrap5.2.3/bootstrap.rtl.min.css"
+        />
         <!-- <link rel="stylesheet" href="./assets/css/master.css" />
         <link rel="stylesheet" href="./assets/css/reset.css" /> -->
     </head>
     <body>
-        Loading JS...
+        ToDo App
 
-        <script src="./assets/js/app.js"></script>
+        <form class="auth-login">
+            <div class="form-group">
+                <label for="task" class="form-label"></label>
+                <input
+                    type="text"
+                    class="form-control todo-input"
+                    id="task"
+                    autocomplete="off"
+                />
+            </div>
+        </form>
+
+        <ul class="todos">
+            <li class="d-flex gap-2 justify-content-between">
+                <span>Task 1</span>
+                <div class="todos-actions d-flex gap-2">
+                    <button class="btn btn-primary">Edit</button>
+                    <button class="btn btn-danger">Delete</button>
+                </div>
+            </li>
+        </ul>
+        <!-- <script src="./assets/js/app.js"></script> -->
+        <script src="./assets/vendor/jquery3.7.1/jquery.min.js"></script>
+        <script src="./assets/vendor/bootstrap5.2.3/bootstrap.min.js"></script>
+        <script src="./assets/js/todo.js"></script>
     </body>
 </html>
