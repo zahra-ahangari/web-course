@@ -1,0 +1,8 @@
+.list-box {
+    .box {
+        background-color: gold;
+        &:hover {
+            background-color: blue($color: #000000);
+        }
+    }
+}
