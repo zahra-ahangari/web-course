@@ -60,7 +60,7 @@ function numberConvertor(number, desLanguage){
         result = englishToGreekNumbers(number);
     }
     else{
-        console.log("Please enter the destination language!");
+        console.log("Please enter the destination language and the number in the correct format.");
     }
     return result;
 }
